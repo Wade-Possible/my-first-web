@@ -1,0 +1,162 @@
+
+body {
+    margin: 0;
+    background-image: url("images/hans-vivek-UiMkBvDQSAA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    flex: 1;
+    text-align: left;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar {
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    border: solid darkgoldenrod;
+    
+}
+
+.navbar nav a {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.action-btn {
+    color: white;
+    padding: 0.5rem 1rem;
+    border: solid darkgoldenrod ;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.welcome {
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.intro2 {
+    font-size: 30px;
+}
+
+.welcome > p {
+    text-align: left;
+}
+
+.Skeletal > img {
+    max-width: 900px;
+    float: right;
+    border-radius: 20px;
+    margin-right: 10px 0 60px 0;
+    width: 40%;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+
+.first-h2 {
+    align-items: center;
+}
+
+.us-h2 {
+    color: white;
+    font-size: 80px;
+    width: 1150px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.employ {
+    margin: 70px 0;
+}
+
+.employ-s {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 10px;
+    justify-content: center;
+    
+}
+
+.per1 {
+    height: 600px;
+    margin: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: rgb(184, 135, 11);
+    
+    
+}
+
+.per1 > p {
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.per1 > img {
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    
+    
+}
+
+
+
+.text-foot {
+    color: white;
+}
+footer {
+	background-color: darkgoldenrod;
+    padding: 1em;
+	text-align: center;
+    margin-top: auto;
+	z-index: 3;
+}
+
+footer > a {
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+    width: 15px;
+}
+
+footer > a:hover {
+    color: black;
+}
