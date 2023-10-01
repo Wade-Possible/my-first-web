@@ -50,7 +50,7 @@ nav ul li {
     padding: 15px;
 }
 
-.action-btn {
+#book-btn {
     color: white;
     padding: 0.5rem 1rem;
     border: solid darkgoldenrod ;
