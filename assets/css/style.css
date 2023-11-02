@@ -89,8 +89,9 @@ nav {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 15px;
-    position: relative;
+    font-size: 20px;
+    position: absolute;
+    right: 5;
 }
 
 /* Main section */
@@ -120,10 +121,25 @@ main {
     color: #ffffff;
 }
 
-#about {
+
+
+#p2 {
+    text-align: left;
+}
+
+.about {
     width: 90%;
     margin: 20px auto;
+    text-align: center;
 
+}
+
+.about-icon {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    font-size: 20px;
+    
 }
 
 #founder {
