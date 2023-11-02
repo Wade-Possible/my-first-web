@@ -16,19 +16,23 @@ header {
     width: 100%;
     position: fixed;
     display: flex;
-    justify-content: space-between;
     padding: 0 2rem;
     z-index: 99;
     align-items: baseline;
+    justify-content: space-between;
 }
 header a {
     text-decoration: none;
     color: #ffffff;
+    margin: 2px;
+    padding: 2px;
+    border: solid;
 }
 
 #logo {
-    font-size: 1.5rem;
+    
 }
+
 
 a:hover {
     color: black;
@@ -84,7 +88,6 @@ nav {
 #book-btn {
     text-decoration: none;
     color: #ffffff;
-    margin: 10px 10px 20px 10px;
     font-weight: bold;
     font-size: 15px;
     position: relative;
@@ -115,6 +118,20 @@ main {
 .muscle-well {
     padding-top: 10rem;
     color: #ffffff;
+}
+
+#about {
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+#founder {
+    background: url(../images/Founder.jpg) no-repeat top center/cover;
+    border-radius: 50%;
+    width: 60vw;
+    height: 60vw;
+    margin: 60px;
 }
 
 
