@@ -11,12 +11,16 @@ body {
     flex-direction: column;
 }
 
+h3 h4 {
+    
+}
+
 header {
     background-color: lightblue;
     width: 100%;
     position: fixed;
     display: flex;
-    padding: 0 2rem;
+    padding: 15px;
     z-index: 99;
     align-items: baseline;
     justify-content: space-between;
@@ -26,7 +30,6 @@ header a {
     color: #ffffff;
     margin: 2px;
     padding: 2px;
-    border: solid;
 }
 
 #logo {
@@ -83,6 +86,9 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color: #ffffff;
+    position: absolute;
+    right: 15px;
+    top: 21px;
 }
 
 #book-btn {
@@ -91,10 +97,11 @@ nav {
     font-weight: bold;
     font-size: 20px;
     position: absolute;
-    right: 5;
+    right: 50px;
+    top: 21px;
 }
 
-/* Main section */
+/* Main section1 */
 main {
     display: flex;
     flex-direction: column;
@@ -108,7 +115,7 @@ main {
     position: relative;
 }
 
-#front-text {
+#front-txt {
     position: absolute;
     font-size: 150%;
     background-color: rgba(60, 60, 60, 0.6);
@@ -116,15 +123,26 @@ main {
     width: 100%;
     height: 100%;
 }
-.muscle-well {
+#front-txt > h2 {
     padding-top: 10rem;
     color: #ffffff;
 }
 
+#front-txt > i {
+    padding-top: 15rem;
+    color: #ffffff;
+}
+
+/* section2 */
+
+#founder-txt {
+    border: solid;
+}
 
 
 #p2 {
     text-align: left;
+    margin: 20px;
 }
 
 .about {
@@ -150,6 +168,48 @@ main {
     margin: 60px;
 }
 
+/*section3*/
+
+.helo {
+    margin: 30px;
+    
+}
+.helo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-txts {
+    text-align: center;
+    background-color: rgb(96, 105, 108);
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+#classic {
+    background: url(../images/classic.jpg) no-repeat top center/cover;
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+}
+
+#pregnat {
+    background: url(../images/pregnant.jpg) no-repeat top center/cover;
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+}
+
+#lymphatic {
+    background: url(../images/lymphatic.jpg) no-repeat top center/cover;
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+}
+
+/*Footer*/
 
 footer {
     background-color: lightblue;
@@ -158,6 +218,7 @@ footer {
     margin-top: auto;
     z-index: 3;
     color: white;
+    height: 50vh;
 }
 
 
