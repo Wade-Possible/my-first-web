@@ -11,10 +11,6 @@ body {
     flex-direction: column;
 }
 
-h3 h4 {
-    
-}
-
 header {
     background-color: lightblue;
     width: 100%;
@@ -30,10 +26,6 @@ header a {
     color: #ffffff;
     margin: 2px;
     padding: 2px;
-}
-
-#logo {
-    
 }
 
 
@@ -88,7 +80,7 @@ nav {
     color: #ffffff;
     position: absolute;
     right: 15px;
-    top: 21px;
+    top: 19px;
 }
 
 #book-btn {
@@ -228,3 +220,10 @@ footer > a {
     padding: 15px;
     width: 15px;
 }
+
+#find {
+    margin: 50px;
+    padding: 30px;
+}
+
+#
