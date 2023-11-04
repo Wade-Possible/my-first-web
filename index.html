@@ -16,12 +16,12 @@
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
         
-        <nav>
+        <nav id="navbar">
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="service">Service</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="#founder" aria-label="Go to founder">About</a></li>
+                <li><a href="#service" aria-label="Go to service section">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -36,16 +36,16 @@
         
         <section class="about">
             <p>Massage treatment at your home or visit us here, no matter your age or shape</p>
-            <div id="founder"></div>
+            <div id="founder" name="about"></div>
             <div id="founder-txt">
-                <h3>Hi my name is Soy</h3>
-                <h4>Massage is a craft and always needs to be tailored to suit you and your needs.</h4>
+                <h2>Hi my name is Soy</h2>
+                <h4>"Massage is a craft and always needs to be tailored to suit you and your needs."</h4>
                 <p id="p2">I Have 7 years of experience from Hospital with patients who have Stroke, Parkinson's, various heart problems, rehabilitation after hip/knee prostheses, sports injuries, etc. Patients with problems/pains from knees, hips, back, neck and dizziness. I have worked a lot with examination and follow-up of children and had many different training groups on "land" and in the pool.</p>
             </div>
         </section>
         <section class="about">
             <div>
-                <h4>How home visit massage works:</h4>
+                <h3>How home visit massage works:</h3>
             </div>
             <div class="about-txt">
                 <div class="about-icon"><i class="fa-regular fa-calendar"></i><br>Book</div>
@@ -81,22 +81,22 @@
     <footer class="text-foot">
 
         <div id="find">
-            <span>Find us on:</span>
         
-            <div>
-                 <h4>Opening hours</h4>
-                 <h5>Mon - Fri 9:30-16:30</h5>
-                 <h5>Dublin</h5>
+            <div class="open-info">
+                 <h3>Opening hours</h3>
+                 <p>Mon - Fri 9:30-16:30</p>
+                 <p>Dublin</p>
             </div>
-            <div>
-                <h4>Contact me</h4>
-                <h5>Soy Wolfwood</h5>
-                <h5>555-xxx-xx</h5>
-                <h5>info@musclewell.com</h5>
+            <div class="open-info">
+                <h3>Contact me</h3>
+                <p>Soy Wolfwood</p>
+                <p>555-xxx-xx</p>
+                <p>info@musclewell.com</p>
             </div>
         </div>
 
-        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+        <div id="socials">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
             aria-label="Find us on Facebook (link opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://www.instagram.com" target="_blank" rel="noopener"
             aria-label="Find us on Instagram (link opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
@@ -104,6 +104,7 @@
             aria-label="Find us on Tiktok (link opens in a new tab)"><i class="fa-brands fa-tiktok"></i></a>
         <a href="https://www.twitter.com" target="_blank" rel="noopener"
             aria-label="Find us on Twitter (link opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
         
             <p id="copy">Copyright Muscle well 2023</p>
 
