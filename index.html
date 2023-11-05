@@ -8,22 +8,10 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" class="active">
             <h1 id="logo">Muscle Well</h1>
         </a>
         <a href="book.html" id="book-btn">Book <i class="fa-regular fa-calendar"></i></a>
-        
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        
-        <nav id="navbar">
-            <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#founder" aria-label="Go to founder">About</a></li>
-                <li><a href="#service" aria-label="Go to service section">Service</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
     
     <main>
@@ -36,11 +24,14 @@
         
         <section class="about">
             <p>Massage treatment at your home or visit us here, no matter your age or shape</p>
-            <div id="founder" name="about"></div>
-            <div id="founder-txt">
+            <div id="founder-tab">
+                <div id="founder" name="about"></div>
+                <div id="founder-txt">
                 <h2>Hi my name is Soy</h2>
                 <h4>"Massage is a craft and always needs to be tailored to suit you and your needs."</h4>
                 <p id="p2">I Have 7 years of experience from Hospital with patients who have Stroke, Parkinson's, various heart problems, rehabilitation after hip/knee prostheses, sports injuries, etc. Patients with problems/pains from knees, hips, back, neck and dizziness. I have worked a lot with examination and follow-up of children and had many different training groups on "land" and in the pool.</p>
+            </div>
+            </div>
             </div>
         </section>
         <section class="about">
@@ -61,16 +52,16 @@
             </div>
         </section>
 
-        <section id="service">
-            <div class="helo">
+        <section>
+            <div class="service">
                 <div id="classic"></div>
                 <h4 class="service-txts">Classical & Treating</h4>
             </div>
-            <div class="helo">
+            <div class="service">
                 <div id="pregnat"></div>
                 <h4 class="service-txts">Pregnancy massage</h4>
             </div>
-            <div class="helo">
+            <div class="service">
                 <div id="lymphatic"></div>
                 <h4 class="service-txts">Lymphatic massage</h4>
             </div>
@@ -81,7 +72,6 @@
     <footer class="text-foot">
 
         <div id="find">
-        
             <div class="open-info">
                  <h3>Opening hours</h3>
                  <p>Mon - Fri 9:30-16:30</p>
@@ -106,7 +96,7 @@
             aria-label="Find us on Twitter (link opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
         
-            <p id="copy">Copyright Muscle well 2023</p>
+        <p id="copy">Copyright Muscle well 2023</p>
 
     </footer>
 

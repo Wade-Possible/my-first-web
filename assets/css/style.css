@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +11,10 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+}
+
+h1 h2 h3 h4 {
+    font-family: ;
 }
 
 header {
@@ -28,64 +34,15 @@ header a {
     padding: 2px;
 }
 
-
-a:hover {
-    color: black;
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu li {
-    margin-bottom: 1em;
-}
-
-
 .active {
     border-bottom: 1px solid #ffffff;
-}
-
-nav {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 100%;
-    display: none;
-    padding: 0 1rem;
-    background-color: lightblue;
-}
-
-#navbar {
-  animation: fade-out 0.3s; 
-}
-
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-    color: #ffffff;
-    position: absolute;
-    right: 14px;
-    top: 19px;
 }
 
 #book-btn {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 24px;
-    position: absolute;
-    right: 50px;
-    top: 19px;
+    font-size: 28px;
 }
 
 /* Main section1 */
@@ -164,11 +121,11 @@ main {
 
 /*section3*/
 
-.helo {
+.service {
     margin: 30px;
     
 }
-.helo div {
+.service div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,17 +195,6 @@ main {
     align-items: center;
 }
 
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#reasons h2 {
-    font-size: 280%;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 #book-price > div,
 #benefits-mental > div {
     line-height: 20px;
@@ -306,4 +252,27 @@ footer > a {
 
 #copy {
     padding: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    header a {
+        padding: 0 20px;
+    }
+
+    #founder {
+        border-radius: 50% 50% 0 0;
+        width: 40vw;
+        height: 57vw;
+        float: left;
+    }
+
+    #founder-tab {
+        border: solid;
+        margin-top: 50px;
+        padding-bottom: 90px;
+    }
+
+    #founder-txt {
+        padding-top: 80px;
+    }
 }
