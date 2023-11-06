@@ -29,9 +29,9 @@ header {
 }
 header a {
     text-decoration: none;
-    color: #ffffff;
     margin: 2px;
     padding: 2px;
+    color: #ffffff;
 }
 
 .active {
@@ -40,7 +40,6 @@ header a {
 
 #book-btn {
     text-decoration: none;
-    color: #ffffff;
     font-weight: bold;
     font-size: 28px;
 }
@@ -71,6 +70,8 @@ main {
 #front-txt > h2 {
     padding-top: 10rem;
     color: #ffffff;
+    font-size: 22px;
+    text-align: center;
 }
 
 #front-txt > i {
@@ -144,6 +145,7 @@ main {
     width: 80vw;
     height: 80vw;
     margin: auto;
+    
 }
 
 #pregnat {
@@ -151,6 +153,7 @@ main {
     width: 80vw;
     height: 80vw;
     margin: auto;
+    
 }
 
 #lymphatic {
@@ -158,6 +161,7 @@ main {
     width: 80vw;
     height: 80vw;
     margin: auto;
+    
 }
 
 /* Book-side */
@@ -195,63 +199,43 @@ main {
     align-items: center;
 }
 
-#book-price > div,
-#benefits-mental > div {
+#book-price > div, {
     line-height: 20px;
     margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 20px 0;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
 }
 
 /*Footer*/
 
 footer {
     background-color: lightblue;
-    padding: 1em;
     text-align: center;
-    margin-top: auto;
-    z-index: 3;
     color: white;
-    height: 54vh;
-}
-
-
-footer > a {
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    width: 15px;
+    height: 50vh;
+    margin-top: 20px;
 }
 
 #find {
-    margin: 10px;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .open-info {
-    padding: 20px;
+    padding-top: 10px;
 }
 
-.open-info h3 {
-    padding-bottom: 10px;
+.open-info p {
+    padding: 5px;
 }
 
 #socials {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    color: #ffffff;
+    padding: 15px;
 }
 
 #copy {
-    padding: 30px;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -259,20 +243,160 @@ footer > a {
         padding: 0 20px;
     }
 
+    #front-txt h2 {
+        font-size: 32px;
+        text-align: center;
+        padding: 8rem 70px 0 70px;
+    }
+
     #founder {
-        border-radius: 50% 50% 0 0;
-        width: 40vw;
-        height: 57vw;
+        border-radius: 500px 500px 0 0;
+        width: 325px;
+        height: 500px;
         float: left;
     }
 
     #founder-tab {
-        border: solid;
+        
         margin-top: 50px;
         padding-bottom: 90px;
     }
 
     #founder-txt {
         padding-top: 80px;
+        padding-bottom: 40px;
+        margin-bottom: -60px;
     }
+
+    #founder-txt h2, h4 {
+        text-align: left;
+
+    }
+
+    .about h3 {
+        font-size: 20px;
+    }
+
+    #service-sec {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    #classic {
+        width: 40vw;
+        height: 30vw;
+    }
+    
+    #pregnat {
+        width: 40vw;
+        height: 30vw;
+    }
+    
+    #lymphatic {
+        width: 40vw;
+        height: 30vw;
+    }
+
+    .service-txts {
+        width: 40vw;
+    }
+
+    footer {
+        padding-top: 40px;
+    }
+
+    #find {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .open-info p {
+        padding: 10px;
+    }
+
+    #copy {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    a:hover {
+        color: rgb(96, 105, 108);
+    }
+
+    #front-txt h2 {
+        font-size: 40px;
+    }
+    
+    #front-txt {
+        width: 80%;
+        padding-top: 2rem;
+    }
+
+    #background {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    #founder {
+        height: 600px;
+        width: 400px;
+        border-radius: 500px 500px 0 0;
+        margin: 0 0 0 280px;
+
+    }
+    #founder-txt {
+       width: 60%;
+       margin: auto;
+    }
+
+    #line1 {
+        height: 250px;
+            border-right: 1px solid #000900;
+            position: absolute;
+            right: 35.5%;
+    }
+    #line2 {
+        height: 250px;
+            border-right: 1px solid #000900;
+            position: absolute;
+            left: 35.5%;
+    }
+
+    .about h3 {
+        font-size: 50px;
+        padding-bottom: 80px;
+    }
+
+    #row-txt {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+        
+    }
+
+    .about-txt {
+        height: 300px;
+        width: 300px;
+    }
+
 }
