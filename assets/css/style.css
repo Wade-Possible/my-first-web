@@ -13,10 +13,6 @@ body {
     flex-direction: column;
 }
 
-h1 h2 h3 h4 {
-    font-family: ;
-}
-
 header {
     background-color: lightblue;
     width: 100%;
@@ -80,6 +76,12 @@ main {
 }
 
 /* section2 */
+
+#founder-section {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
 
 #founder-txt {
     border: solid;
@@ -199,7 +201,7 @@ main {
     align-items: center;
 }
 
-#book-price > div, {
+#book-price > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -277,7 +279,7 @@ footer {
         font-size: 20px;
     }
 
-    #service-sec {
+    #service-section {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
@@ -349,20 +351,24 @@ footer {
         align-self: center;
     }
 
-    .about {
-        width: 100%;
+    #founder-section {
+       display: flex;
+       margin-bottom: 0;
     }
 
     #founder {
         height: 600px;
         width: 400px;
         border-radius: 500px 500px 0 0;
-        margin: 0 0 0 280px;
-
+        margin-left: 300px;
     }
+
     #founder-txt {
-       width: 60%;
-       margin: auto;
+       height: 600px;
+       margin-top: 60px;
+       margin-left: 500px;
+       margin-right: 300px;
+       padding-right: 25px;
     }
 
     #line1 {
@@ -371,6 +377,7 @@ footer {
             position: absolute;
             right: 35.5%;
     }
+    
     #line2 {
         height: 250px;
             border-right: 1px solid #000900;
@@ -378,9 +385,18 @@ footer {
             left: 35.5%;
     }
 
+    .about {
+        width: 100%;
+    }
+
     .about h3 {
         font-size: 50px;
         padding-bottom: 80px;
+    }
+
+    .about-txt {
+        height: 300px;
+        width: 300px;
     }
 
     #row-txt {
@@ -394,9 +410,73 @@ footer {
         
     }
 
-    .about-txt {
-        height: 300px;
-        width: 300px;
+    #service-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 85%;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    #classic {
+        height: 350px;
+        width: 350px;
+        margin-top: 30px;
+    }
+
+    #pregnat {
+        height: 350px;
+        width: 350px;
+        margin-top: 30px;
+    }
+
+    #lymphatic {
+        height: 350px;
+        width: 350px;
+        margin-top: 30px;
+    }
+
+    .service-txts {
+        width: 350px;
+    }
+
+    footer {
+        padding-top: 40px;
+    }
+
+    #find {
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
+    
+    
+
+    .open-info p {
+        padding: 10px;
+    }
+
+    #copy {
+        padding-top: 90px;
+    }
+
+    /*book site*/
+
+    #book2 {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 
 }
