@@ -31,6 +31,22 @@ On the next page (Book page) users will find the different massage and treatment
   * Followed by some treatments that are available to book.
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/efc31db2-9b55-42ea-bdbd-c60399be14f1)
 
+# Booking/Second page 
+The book page has the same navigation as before but ehnfecesses with an underline that the user is on the booking page.
+The booking page shows an image of a former customer having a massage further down the users will find all the massages and treatments as well as the duration of each sation and a button to book.
+
+# The contact sectio
+The contact section follows the same color theme of the page and shows contact information and open hours.
+As well as icons that links to different socials with a copyright at the very end.
+
+# Testing
+I’ve tested the site in different browsers: Safari, Chrome, Firefox, Brave.
+The website as also been tested on different devices to make sure that the performance and looks of the website are up to standards: iPhone, iPad, Windows, MacBook. 
+
+# Bugs
+When I uploaded my website through github I notes that the CSS was not correctly linked to the HTML and hade to correct that.
+I later noticed that the loading time of the website was not up to standards very slown, ran it through chromes lighthouse and the results for performance was 43 for the desktop version and the mobile version was …  
+
 
 
 
