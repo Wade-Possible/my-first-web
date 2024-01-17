@@ -13,23 +13,23 @@
         <a href="book.html" id="book-btn">Book <i class="fa-regular fa-calendar"></i></a>
     </header>
     <main>
-        <section>
+        <section id="booking">
             <form id="book-section" action="/submited.html" method="post">
-                <h1>Classic massage 60 min<br>109,29 €</h1>
+                <h3 class="booking_title">Classic massage 60 min 109,29 €</h3>
                 <p>Here you can choose the date you plan to visit us or receive a home visit.</p>
-                <label for="first_name">First Name</label>
+                <label for="first_name">First Name </label>
                 <input type="text" id="first_name" class="text-input" required>
                 <br>
-                <label for="last_name">Last Name</label>
+                <label for="last_name">Last Name </label>
                 <input type="text" id="last_name" class="text-input" required>
                 <br>
-                <label for="email_address">Email</label>
+                <label for="email_address">Email </label>
                 <input type="email" id="email_address" class="text-input" required>
                 <br>
-                <label for="date">Select Date</label>
+                <label for="date">Select Date </label>
                 <input type="date" id="date" name="date-selection" min="01-01-2024" max="31-12-2024" required>
                 <br>
-                <button type="submit" class="submit-button">Book!</button>
+                <button type="submit" id="submit_button">Book!</button>
             </form>
         </section>
     </main>
