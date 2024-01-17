@@ -167,7 +167,7 @@ main {
 }
 
 /* Book-side */
-#front-button {
+#book-img {
     background: url(../images/front-book.jpg) no-repeat top center/cover;
     width: 100%;
     height: 400px;
@@ -178,32 +178,34 @@ main {
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 #book-price h3 {
-    padding-top: 20px;
+    padding: 20px 20px 20px 0;
+    
 }
 
 .book2-btn {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
     border: solid rgb(96, 105, 108);
     border-radius: 10px;
     background-color: lightblue;
-    padding: 10px 20px;
-}
-
-.book2-button {
+    padding: 10px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 10px 90px;
+    
+    
 }
 
 #book-price > div {
     line-height: 20px;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
+
 }
 
 /* Booking pages */
@@ -538,11 +540,12 @@ footer {
     /*book site*/
 
     #book2 {
-        width: 60%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        
+        
     }
 
 }
