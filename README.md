@@ -61,8 +61,11 @@ I later noticed that the loading time of the website was not up to standards ver
 * Accessibility
  * Only the performance was not good enough when running Chromes lighthouse for both mobile and desktop
  * Desktop
+   
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/4eee5697-e59b-427d-90d0-d2469b53319d)
+
  * Mobile
+
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/3e60506a-28c0-4e79-9a6c-57228c293f3a)
 
 
