@@ -32,18 +32,27 @@ On the next page (Book page) users will find the different massage and treatment
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/efc31db2-9b55-42ea-bdbd-c60399be14f1)
 
 # Book/Second page 
-The book page has the same navigation as before but ehnfecesses with an underline that the user is on the booking page.
-The booking page shows an image of a former customer having a massage further down the users will find all the massages and treatments as well as the duration of each sation and a button to book.
+The book page has the same navigation as before but with an underline that the user is on the booking page.
+The booking page shows an image of a former customer having a massage further down the users will find all the massages and treatments as well as the duration of each session and a button to book.
+
+![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/04f1a4d2-55db-4aa9-869b-6dc690699c4c)
+
 
 # Booking/Third page
 The Booking page which the customers can reach by pressing the "book" buttons. 
 They'll arrive to the third page where they can register by entering their contact details.
 After they have filled out, they will receive a notification that they will be contacted shortly.
 
+![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/2f851f69-8f4b-4632-9f38-5c9de1fa311f)
 
-# The contact sectio
+
+
+# The contact section
 The contact section follows the same color theme of the page and shows contact information and open hours.
 As well as icons that links to different socials with a copyright at the very end.
+
+![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/3e2ccb6a-9c70-4924-98c0-a151c4b04d80)
+
 
 # Testing
 I’ve tested the site in different browsers: Safari, Chrome, Firefox, Brave.
@@ -51,20 +60,20 @@ The website as also been tested on different devices to make sure that the perfo
 
 # Bugs
 When I uploaded my website through Github I notes that the CSS was not correctly linked to the HTML and hade to correct that.
-I later noticed that the loading time of the website was not up to standards very slown, ran it through Chromes lighthouse and the results for performance was 43 for the desktop version and the mobile version was....
 
 # Validator Testing
 * HTML
- * No errors where returned when passing through the offical W3C validator
+  * No errors where returned when passing through the offical W3C validator
 * CSS
- * No errors where found when passing through the official (Jigsaw) validator
+  * No errors where found when passing through the official (Jigsaw) validator
 * Accessibility
- * Only the performance was not good enough when running Chromes lighthouse for both mobile and desktop
- * Desktop
+  * Only the performance was not good enough when running Chromes lighthouse for both mobile and desktop
+
+   * Desktop
    
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/4eee5697-e59b-427d-90d0-d2469b53319d)
 
- * Mobile
+   * Mobile
 
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/3e60506a-28c0-4e79-9a6c-57228c293f3a)
 
@@ -74,6 +83,8 @@ None
 
 # Deployment
 This site was deployed to Github pages
+
+The live link can be found here: https://wade-possible.github.io/my-first-web/index.html
 
 # Credit 
 Content
