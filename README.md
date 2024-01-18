@@ -31,9 +31,15 @@ On the next page (Book page) users will find the different massage and treatment
   * Followed by some treatments that are available to book.
 ![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/efc31db2-9b55-42ea-bdbd-c60399be14f1)
 
-# Booking/Second page 
+# Book/Second page 
 The book page has the same navigation as before but ehnfecesses with an underline that the user is on the booking page.
 The booking page shows an image of a former customer having a massage further down the users will find all the massages and treatments as well as the duration of each sation and a button to book.
+
+# Booking/Third page
+The Booking page which the customers can reach by pressing the "book" buttons. 
+They'll arrive to the third page where they can register by entering their contact details.
+After they have filled out, they will receive a notification that they will be contacted shortly.
+
 
 # The contact sectio
 The contact section follows the same color theme of the page and shows contact information and open hours.
