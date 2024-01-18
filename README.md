@@ -50,9 +50,34 @@ I’ve tested the site in different browsers: Safari, Chrome, Firefox, Brave.
 The website as also been tested on different devices to make sure that the performance and looks of the website are up to standards: iPhone, iPad, Windows, MacBook. 
 
 # Bugs
-When I uploaded my website through github I notes that the CSS was not correctly linked to the HTML and hade to correct that.
-I later noticed that the loading time of the website was not up to standards very slown, ran it through chromes lighthouse and the results for performance was 43 for the desktop version and the mobile version was …  
+When I uploaded my website through Github I notes that the CSS was not correctly linked to the HTML and hade to correct that.
+I later noticed that the loading time of the website was not up to standards very slown, ran it through Chromes lighthouse and the results for performance was 43 for the desktop version and the mobile version was....
 
+# Validator Testing
+* HTML
+ * No errors where returned when passing through the offical W3C validator
+* CSS
+ * No errors where found when passing through the official (Jigsaw) validator
+* Accessibility
+ * Only the performance was not good enough when running Chromes lighthouse for both mobile and desktop
+ * Desktop
+![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/4eee5697-e59b-427d-90d0-d2469b53319d)
+ * Mobile
+![image](https://github.com/Wade-Possible/my-first-web/assets/137451269/3e60506a-28c0-4e79-9a6c-57228c293f3a)
+
+
+# Unfixed Bugs
+None
+
+# Deployment
+This site was deployed to Github pages
+
+# Credit 
+Content
+* The code to make the social links where taken from the CI Love Running Project as well as the form element for the booking page.
+
+Media
+* All the images where taken from Unsplash.
 
 
 
